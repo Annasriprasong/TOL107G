@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8" >
+    <title>Spilabúðin</title>
+  </head>
+  <body>
+    <h1>Skráning á viðburði</h1>
+
+    <nav>
+      <ul>
+        <li><a href="../index.html">Forsíða Spilabúðarinnar.</a></li>
+        <li><a href="./spil.html">Spil.</a></li>
+        <li><a href="./vidburdir.html">Viðburðir.</a></li>
+        <li><strong>Skráning á viðburð.</strong></li>
+      </ul>
+    </nav>
+
+    <main>
+      <p>Skráðu þig á viðburði hjá okkur!</p>
+      <form>
+        <fieldset>
+          <legend>Viðburður</legend>
+          <div>
+            <label>Hvaða viðburð viltu koma á?</label>
+            <select>
+              <option value="Púslukvöld">Púslukvöld</option>
+              <option value="Ticket to Ride">Ticket to Ride</option>
+            </select>
+          </div>
+          <div>
+            <label>Hvenær? <input type="date" ></label>
+          </div>
+          <div>
+            <label
+              >Klukkan hvað? <input type="time" min="10:00" max="00:00"
+            ></label>
+          </div>
+          <div>
+            <label>Hve mörg?<input type="number" min="1" max="10" ></label>
+          </div>
+          <div>
+            <label>Viltu taka eitthvað fram?</label><textarea></textarea>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Panta mat</legend>
+          <div>
+            <label>Viltu einhvern mat?</label>
+            <select>
+              <option value="pizza">Pizzusneið og gos</option>
+              <option value="cake">Kaffi og kaka</option>
+              <option value="nei">Engan mat</option>
+            </select>
+          </div>
+          <div>
+            <label
+              >Ofnæmi?<input type="checkbox" >Já</label
+            >
+            <label><input type="checkbox">Nei</label>
+          </div>
+          
+          <div>
+            <label>Annað sem við eigum að vita? </label><textarea></textarea>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Þínar upplýsingar</legend>
+          <div>
+            <label>Nafn <input type="text" required
+                ></label>
+          </div>
+          <div>
+            <label
+              >Netfang <input type="email" id="email"
+            ></label>
+          </div>
+          <div>
+            <label
+              >Sími
+              <input type="text" required></label
+            >
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Samþykkja og panta</legend>
+          <div>
+            <label>
+              <input type="checkbox" required >
+            </label>
+          </div>
+          <button>Panta</button>
+        </fieldset>
+      </form>
+      <p><a href="../index.html">Aftur á forsíðu</a></p>
+    </main>
+    <footer>
+      <h2>Opnunartími</h2>
+      <p>
+        Mánudagar Lokað Þriðjudagar til fimmtudags 14:00–22:00 Föstudaga
+        14:00–00:00 Laugardaga 12:00–00:00 Sunnudaga 12:00–22:00
+      </p>
+      <h2>Hér erum við</h2>
+      <p>
+        Spilabúðin ehf. Spilgata 1 101 Reykjavík Sími 123-4567
+        spilabudin@example.org
+      </p>
+      <h2>Samfélagsmiðlar</h2>
+      <ul>
+        <li><a href="https://www.facebook.com/HaskoliIslands/">Facebook</a></li>
+        <li><a href="https://www.youtube.com/user/HIvarp">YouTube </a></li>
+        <li>
+          <a href="https://www.instagram.com/haskoli_islands/">Instagram </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
